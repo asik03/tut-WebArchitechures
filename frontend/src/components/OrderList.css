@@ -1,0 +1,14 @@
+/*.App {*/
+  /*text-align: center;*/
+  /*width: 1200px;*/
+  /*margin: 0 auto;*/
+/*}*/
+ul {
+  list-style-type: none;
+}
+.orderList{
+  text-align: left;
+}
+.orderItem{
+  display: block;
+}

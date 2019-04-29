@@ -1,0 +1,28 @@
+{
+  "name": "sandwich-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "react": "^16.8.5",
+    "react-dom": "^16.8.5",
+    "react-scripts": "2.1.8",
+    "react-scroll-parallax": "^2.0.5"
+  },
+  "scripts": {
+    "start": "chmod +x ./env.sh && ./env.sh && cp env-config.js ./public/ && ./node_modules/.bin/react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "proxy": "http://192.168.99.100:8080/"
+}

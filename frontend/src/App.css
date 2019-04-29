@@ -1,0 +1,223 @@
+/*.App {*/
+  /*text-align: center;*/
+  /*width: 1200px;*/
+  /*margin: 0 auto;*/
+/*}*/
+
+*{
+  box-sizing: border-box;
+}
+
+
+.bgsw{
+    max-width: 100%;
+    position: fixed;
+}
+
+.orderBtn{
+    font-family: 'IBM Plex Mono', monospace;
+    position: absolute;
+    z-index: 2;
+    width: 200px;
+    height: 60px;
+    background-color: #edebd9;
+    bottom: 60%;
+    left: 66.5%;
+}
+
+
+
+.orderBtn h1{
+    margin-bottom: 0;
+    margin-top: 6%;
+    text-align: center;
+    font-size: 1.5em;
+    color: #191919;
+}
+
+.swBtn{
+     left: 66.5%;
+     top: 43%;
+     position: absolute;
+     display: inline-block;
+     z-index: 2;
+     background-color: #edebd9;
+     width: 200px;
+     height: 60px;
+     transition: 0.3s;
+ }
+
+.swBtn:hover {
+    background-color: #191919;
+}
+
+
+
+.swBtn h1{
+    margin-bottom: 0;
+    margin-top: 6%;
+    text-align: center;
+    font-size: 1.5em;
+    color: #191919;
+}
+
+
+.titleSw{
+    position: absolute;
+    z-index: 3;
+    left: 59%;
+    top: 15%;
+    overflow: auto;
+    font-family: 'Neucha', cursive;
+    font-size: 3em;
+    float: right;
+}
+
+.rect1{
+    position: absolute;
+    z-index: 2;
+    left: 62%;
+    top: 22.5%;
+    width: 380px;
+    height: 35px;
+    background: #d4413e;
+}
+
+.rect3{
+    margin: 0;
+    position: absolute;
+    z-index: 2;
+    left: 20%;
+    width: 180px;
+    height: 25px;
+    background: #d4413e;
+}
+
+
+
+.sw{
+    position: absolute;
+    z-index: 3;
+    top: 26%;
+    width: 22%;
+    left: 15%;
+}
+
+.swBtnContent{
+    margin: 0;
+    position: absolute;
+    z-index: 1;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: bold;
+    left: 67%;
+    top: 49%;
+}
+
+ul li{
+    width: 250px;
+    line-height: 50px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #191919;
+    font-size: 1.25em;
+    position: absolute;
+    z-index: 3;
+}
+
+.rectA{
+    background-color: #d4413e;
+    position: absolute;
+    z-index: 2;
+    height: 15px;
+    width: 200px;
+    top: 42px;
+    left: 50px;
+}
+
+.rectB{
+    background-color: #d4413e;
+    position: absolute;
+    z-index: 2;
+    height: 15px;
+    width: 200px;
+    top: 92px;
+    left: 50px;
+}
+
+.rectC{
+    background-color: #d4413e;
+    position: absolute;
+    z-index: 2;
+    height: 15px;
+    width: 200px;
+    top: 142px;
+    left: 50px;
+}
+
+.rectD{
+    background-color: #d4413e;
+    position: absolute;
+    z-index: 2;
+    height: 15px;
+    width: 200px;
+    top: 192px;
+    left: 50px;
+}
+
+.rectE{
+    background-color: #d4413e;
+    position: absolute;
+    z-index: 2;
+    height: 15px;
+    width: 200px;
+    top: 242px;
+    left: 50px;
+}
+
+.rect2{
+    position: absolute;
+    z-index: 2;
+    top: 40%;
+    width: 450px;
+    height: 150px;
+    background: #d4413e;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.swinput{
+  width: 750px;
+  height: 60px;
+  border-radius: 10px;
+  border-color: darkgray;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

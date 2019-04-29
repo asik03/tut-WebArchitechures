@@ -1,0 +1,22 @@
+/*.App {*/
+  /*text-align: center;*/
+  /*width: 1200px;*/
+  /*margin: 0 auto;*/
+/*}*/
+ul {
+  list-style-type: none;
+}
+.sandwichItem > button{
+  height: auto;
+  display: block;
+  width: 100%;
+  text-align: left;
+}
+.sandwichItem > img{
+  display: block;
+}
+.sandwichItem img{
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 24px;
+}
